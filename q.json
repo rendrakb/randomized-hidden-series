@@ -1,0 +1,31 @@
+{
+  "unit": { "min": 1, "max": 100 },
+  "value": { "min": -999, "max": 999 },
+  "rows": 5,
+  "questions": [
+    {
+      "type": "valueOfUnit",
+      "label": "Value of a unit",
+      "text": "What is the value of unit {unit}?"
+    },
+    {
+      "type": "unitOfValue",
+      "label": "Unit of a value",
+      "text": "What is the unit number of value {value}?"
+    }
+  ],
+  "patterns": [
+    {
+      "type": "addition",
+      "label": "Additive",
+      "step": { "min": 1, "max": 99 },
+      "offset": { "min": -500, "max": 500 }
+    },
+    {
+      "type": "subtraction",
+      "label": "Subtractive",
+      "step": { "min": 1, "max": 99 },
+      "offset": { "min": -500, "max": 500 }
+    }
+  ]
+}

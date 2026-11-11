@@ -1,0 +1,1 @@
+A little tool to train rapid number series pattern recognition
